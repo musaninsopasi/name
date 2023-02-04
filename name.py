@@ -16,9 +16,9 @@ age_list = []
 
 for line in lines:
     elements = line.split()
-    name_list.append(elements[0]) # 0 index  Name olarak geçiyor
-    surname_list.append(elements[1]) # 1 index Surname olarak geçiyor
-    age_list.append(elements[2]) # 2 index Age olarak geçiyor
+    name_list.append(elements[0]) # 0 index  Name olarak geçiyor,
+    surname_list.append(elements[1]) # 1 index Surname olarak geçiyor,
+    age_list.append(elements[2]) # 2 index Age olarak geçiyor.
 
-# Verileri ekrana yazdırır
+# Verileri ekrana yazdırır.
 print(name_list, surname_list, age_list)
